@@ -1,0 +1,32 @@
+# 🛡️ Mini RPG em Java
+
+Este é um projeto simples de estudo desenvolvido em Java utilizando o **NetBeans IDE**. O objetivo é aplicar conceitos fundamentais de Orientação a Objetos (POO), como a criação de classes, atributos, métodos e construtores.
+
+## 📝 Descrição do Projeto
+
+O sistema simula um personagem de RPG que possui atributos básicos (nome, nível, vida e espécie) e pode realizar ações essenciais para um jogo:
+- **Receber Dano:** Diminui os pontos de vida do personagem.
+- **Curar:** Recupera os pontos de vida.
+- **Ganhar Experiência:** Aumenta o nível do personagem.
+
+## 🚀 Tecnologias Utilizadas
+
+* **Linguagem:** Java
+* **IDE:** Apache NetBeans
+* **Gerenciador de Dependências:** Maven
+
+## 📂 Estrutura de Arquivos
+
+O projeto está dividido em duas partes principais dentro do pacote `meujogo`:
+1.  `Personagem.java`: Contém o "molde" do personagem com seus atributos e funções.
+2.  `Principal.java`: É o ponto de entrada do sistema onde criamos o personagem e testamos as ações.
+
+## ⚙️ Como rodar o projeto
+
+1.  Certifique-se de ter o **JDK** instalado em sua máquina.
+2.  Importe o projeto para o seu **NetBeans**.
+3.  Localize o arquivo `Principal.java` dentro de `Source Packages > meujogo`.
+4.  Clique com o botão direito no arquivo e selecione **Run File** (ou pressione `Shift + F6`).
+
+---
+Desenvolvido para fins de aprendizado em Programação Java. 🎮
